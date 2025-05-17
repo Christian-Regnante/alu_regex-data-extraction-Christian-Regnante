@@ -1,0 +1,25 @@
+Dave Martin
+
+(123) 456-7890
+123-456-7890
+123.456.7890
+
+dave.martin@gmail.com
+liquol_store@store.co.uk
+
+1234 5678 9012 3456
+1234-5678-9012-3456
+1234-5678-9012*3456 # Not valid
+
+https://www.google.com
+http://sample_store.com
+https://dave_martin.liquol.org/page
+liquolsample.gov.org
+
+$19.99
+$1,234.56
+$30
+$34,394.00
+$34,394
+$455,345,345.98
+$455,345,345
