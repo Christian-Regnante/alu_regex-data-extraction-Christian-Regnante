@@ -1,4 +1,5 @@
 import re
+import random
 
 # text = "abcdefghijklmnopqrstuvwxyz"
 # second_text = '''
@@ -48,8 +49,14 @@ file = open('search.txt', 'r')
 
 text_pattern = file.read()
 
-matches = pattern_5.finditer(text_pattern)
+randomize = [pattern_1, pattern_2, pattern_3, pattern_4, pattern_5]
+
+pattern = random.choice(randomize)
+print(pattern)
+
+matches = pattern.finditer(text_pattern)
 
 for match in matches:
     print(match)
     print(match.group())
+
